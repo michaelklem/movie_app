@@ -37,6 +37,7 @@ export const getMovies = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(MOVIE_DATA)
+      // reject('Some error occurred1')
     }, 2000)
   })
 }

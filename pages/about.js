@@ -8,19 +8,19 @@ import React from 'react'
 
 
 // functional component - normal function
-// function About() {
-//   return (
-//     <h4>About it</h4>
-//   )
-// }
-
-class About extends React.Component {
-
-  render() {
-    return (
-      <h3>FOOP</h3>
-    )
-  }
+function About() {
+  return (
+    <h4>About it</h4>
+  )
 }
+
+// class About extends React.Component {
+
+//   render() {
+//     return (
+//       <h3>FOOP</h3>
+//     )
+//   }
+// }
 
 export default About
